@@ -22,6 +22,27 @@ header {
   background-color: #1a237e;
   color: white;
   border-radius: 5px;
+  position: relative;
+}
+
+#auth-section {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+#login-form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#login-form input {
+  padding: 5px;
+}
+
+#user-info {
+  color: white;
 }
 
 header h1 {
